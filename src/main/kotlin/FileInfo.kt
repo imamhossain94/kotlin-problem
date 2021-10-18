@@ -24,6 +24,7 @@ fun main(args: Array<String>){
     val fileLastModifiedDate = getFileModifiedDate(connection)
     val contentType = connection.contentType
 
+
     // Only for android
     // video thumbnail
     //implementation 'com.github.bumptech.glide:glide:4.12.0'
@@ -35,8 +36,6 @@ fun main(args: Array<String>){
     println(fileSize)
     println(fileLastModifiedDate)
     println(contentType)
-
-
 
 }
 
